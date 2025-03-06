@@ -5,8 +5,6 @@ import CustomButton from "@/components/CustomButton";
 import { router } from "expo-router";
 import { useDriverStore } from "@/store";
 
-
-
 const confirmRide = () => {
   const { drivers, selectedDriver, setSelectedDriver } = useDriverStore();
 
